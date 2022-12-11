@@ -1,10 +1,13 @@
-[gd_scene load_steps=3 format=3 uid="uid://li7nlnhyb86w"]
+[gd_scene load_steps=4 format=3 uid="uid://li7nlnhyb86w"]
 
 [ext_resource type="PackedScene" uid="uid://dkyo8jtulb5s7" path="res://Days/Day1/day_1.tscn" id="1_tade4"]
 [ext_resource type="PackedScene" uid="uid://cgbbhh3mcqlpl" path="res://Days/Day2/day_2.tscn" id="2_xet3u"]
+[ext_resource type="PackedScene" uid="uid://i2akrym05nui" path="res://Days/Day3/day_3.tscn" id="3_void2"]
 
 [node name="World" type="Node2D"]
 
 [node name="Day1" parent="." instance=ExtResource("1_tade4")]
 
 [node name="Day2" parent="." instance=ExtResource("2_xet3u")]
+
+[node name="Day3" parent="." instance=ExtResource("3_void2")]
