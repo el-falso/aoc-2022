@@ -24,7 +24,7 @@ func _ready() -> void:
 	
 	## ------ Part I ------
 	
-	# Populate 2D-Array with all the weights
+	# Populate array with strategy guide
 	while not fileData.eof_reached():
 		line = fileData.get_line()
 		if not line.is_empty():
